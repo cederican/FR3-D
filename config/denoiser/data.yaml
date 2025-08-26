@@ -1,0 +1,15 @@
+data:
+  batch_size: 64
+  val_batch_size: 64
+  num_workers: 10
+  data_fn: "everyday.{}.txt" #"bones.{}.txt" "everyday.{}.txt"
+  data_dir: /home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/pc_data_feats/everyday/train/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/pc_data_feats/everyday/train/ #/home/datasets/Breaking-Bad-Dataset.synthezised.bones/simpleTibiaHead/pc_data/bones/train/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/pc_data/everyday/train/
+  data_val_dir: /home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/pc_data_feats/everyday/val/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/pc_data_feats/everyday/val/ #/home/datasets/Breaking-Bad-Dataset.synthezised.bones/simpleTibiaHead/pc_data/bones/val/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/pc_data/everyday/val/
+  matching_data_path_train: /home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/train_matching_data/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/matching_data/
+  matching_data_path_val: /home/datasets/ssdArray/Breaking-Bad-Dataset.github.io/data/matching_data/ #/home/datasets/Breaking-Bad-Dataset.synthezised.bones/simpleTibiaHead/matching_data_finetune/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/matching_data/
+  rot_range: -1
+  overfit: 500
+  min_num_part: 2
+  max_num_part: 20
+
+

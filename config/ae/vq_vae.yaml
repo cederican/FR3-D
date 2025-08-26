@@ -1,0 +1,12 @@
+ae:
+  ae_name:
+    _target_: FR3D.vqvae.model.modules.vq_vae.VQVAE
+
+  n_embeddings: 1024
+  embedding_dim: 16
+  num_point: 25
+  num_dim: 64
+  local_decode_pts: 40
+  beta: 0.25
+
+  enc_locdistsnormal: True

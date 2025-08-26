@@ -1,0 +1,125 @@
+# Managed by Hydra
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+defaults:
+  - _self_
+  - denoiser/data
+  - denoiser/model
+  - denoiser/encoder
+  - discriminator/discriminator
+  - discriminator/model_disc
+  - ae/model
+  - ae/vq_vae
+  - override hydra/hydra_logging: disabled
+  - override hydra/job_logging: disabled
+
+denoiser:
+  ckpt_path: null
+  samples: 50
+  sampling: False
+  top_k: 1
+  maximizeMetric: perc_mp # shape_cd, rmse_r, rmse_t, all, perc_mp
+  save_best_flag: False
+  real_bones: False
+  max_iters: 1
+
+  disc_train_path: /home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/gtloc_final_discriminator_data/everyday/train/
+  disc_val_path: /home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/gtloc_final_discriminator_data/everyday/val/
+  discriminator_sampling: False
+  discriminator_data_creation: False
+  sample_gt: False
+
+  data:
+    val_batch_size: 1
+    matching_data_path: /home/datasets/Breaking-Bad-Dataset.synthezised.bones/data/matching_data/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/matching_data/
+
+experiment_name: null
+train_seed: 123
+test_seed: 123
+accelerator: gpu
+devices: [0]
+strategy: auto
+precision: 16-mixed
+
+project_root_path: ${hydra:runtime.cwd}
+experiment_output_path: ${project_root_path}/output/denoiser/${experiment_name}
+
+encoder_weights_path: null
+inference_dir: null
+idx: 1
+
+logger:
+  # https://pytorch-lightning.readthedocs.io/en/stable/extensions/generated/pytorch_lightning.loggers.WandbLogger.html
+  _target_: lightning.pytorch.loggers.WandbLogger
+  project: FR3D
+  name: ${experiment_name}
+  save_dir: ${experiment_output_path}/inference
+
+
+renderer:
+  output_path: /results/
+  mesh_path: /home/ssdArray/datasets/Breaking-Bad-Dataset.synthezised.bones/realTibiaHead/breaking_bad/ #/home/ssdArray/datasets/Breaking-Bad-Dataset.synthezised.bones/advancedTibiaHead/breaking_bad/ #/home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/breaking_bad/ #/home/datasets/Breaking-Bad-Dataset.synthezised.bones/realTibiaHead/breaking_bad/ #/home/datasets/Breaking-Bad-Dataset.github.io/data/breaking_bad/ # simpleTibiaHead
+  num_samples: 20
+  duration: 6
+  rotation_endframes: 15
+  min_parts: 2
+  max_parts: 20
+  category: all
+  material: plastic
+  save_gt: False
+  random_sample: True
+  jigsaw: False
+  only_end: True
+  
+  blender:
+    imgRes_x: 2048
+    imgRes_y: 2048
+    use_GPU: True
+    exposure: 1.5
+    numSamples: 200
+
+  camera_kwargs:
+    camera_type: orthographic
+    fit_camera: False
+    camPos: [-2.0, 1.0, 1.5] #[2, -0.5, 1.5]
+    camLookat: [0, 0.0, 0.0]
+    camUp: [0, 1, 0]
+    camHeight: 2.2
+    resolution: [256, 256]
+    samples: 32
+    focalLength: 60
+
+  light:
+    lightAngle: [6, -30, -155] 
+    strength: 2
+    shadowSoftness: 0.3
+
+  render_kwargs:
+    preview: True
+    shadow_catcher: False
+
+  colors:
+    - [84, 107, 45]   
+    - [178, 0, 0]      
+    - [135, 206, 234]  
+    - [239, 196, 15]   
+    - [216, 112, 214]  
+    - [255, 127, 79]   
+    - [0, 127, 127]    
+    - [237, 58, 130]   
+    - [196, 237, 0]    
+    - [0, 0, 127]      
+    - [137, 53, 15]    
+    - [112, 127, 142]  
+    - [178, 127, 209]  
+    - [255, 216, 178]  
+    - [127, 127, 0]    
+    - [53, 68, 79]     
+    - [183, 75, 107]
+    - [70, 72, 107]
+    - [180, 123, 95]
+    - [137, 66, 70]

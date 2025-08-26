@@ -1,0 +1,12 @@
+model:
+  model_name: 
+    _target_: FR3D.discriminator.model.object_ae.ObjectAE
+  
+  loss_weights:
+    reg_loss: 0.9
+    ranking_loss: 2.0
+    
+  lr_scheduler:
+    _target_: torch.optim.lr_scheduler.MultiStepLR
+    milestones: [60, 120]
+    gamma: 0.75

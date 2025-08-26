@@ -1,0 +1,9 @@
+data:
+  disc_train_dir: /home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/gtloc_final_discriminator_data/everyday/train/
+  disc_val_dir: /home/ssdArray/datasets/Breaking-Bad-Dataset.github.io/data/gtloc_final_discriminator_data/everyday/val/
+  min_num_part: 2
+  max_num_part: 20
+  batch_size: 64
+  val_batch_size: 64
+  num_workers: 10
+  overfit: -1
