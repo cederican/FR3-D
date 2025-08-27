@@ -56,9 +56,9 @@ Please follow the [test guide](docs/test.md) for model inference, evaluation, an
 Please follow the [training guide](docs/training.md) for details about the training pipeline.
 
 
-## Citation
+## Acknowledgements
 
-The FR3-D framework is deeply inspired by [PuzzleFusion++](https://github.com/eric-zqwang/puzzlefusion-plusplus) and leverages ideas from [Jigsaw](https://github.com/Jiaxin-Lu/Jigsaw) and [GARF](https://github.com/ai4ce/GARF). We benefited from their open-source code. Please consider reading these papers if interested in relevant topics.
+The FR3-D framework is deeply inspired by [PuzzleFusion++](https://github.com/eric-zqwang/puzzlefusion-plusplus) and leverages ideas from [Jigsaw](https://github.com/Jiaxin-Lu/Jigsaw) and [GARF](https://github.com/ai4ce/GARF). We benefited from their open-source code. Please consider reading these papers if interested in relevant topics. We gratefully acknowledge the Charité Universitätsmedizin for access to curated healthy and fractured CT Tibia Bones.
 
 
 ## License
