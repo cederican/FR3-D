@@ -8,19 +8,6 @@ title: "FR3-D: A Regressor-Guided SE(3)-Equivariant conditioned Diffusion Model 
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
-<div style="text-align:center; margin-bottom: 30px;">
-  <div><strong>Cederic Aßmann</strong></div>
-  <div>Technical University Berlin, Learning and Intelligent Systems Lab</div>
-  <div>
-    <a href="https://www.linkedin.com/in/cederic-aßmann-41904322b" target="_blank">
-      <img src="{{ '/assets/icons/li.png' | relative_url }}" width="200" alt="LinkedIn">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/cederican/FR3-D" target="_blank">
-      <img src="{{ '/assets/icons/gi.png' | relative_url }}" width="200" alt="GitHub">
-    </a>
-  </div>
-</div>
 
 <div style="text-align:center;">
   <h1>Abstract</h1>
