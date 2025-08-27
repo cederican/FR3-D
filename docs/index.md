@@ -3,8 +3,8 @@ layout: default
 title: "FR3-D: A Regressor-Guided SE(3)-Equivariant conditioned Diffusion Model for 3D Fracture Reassembly"
 ---
 <div style="text-align:center;">
-    <div style="font-size: 2.5em;"><strong>Cederic Aßmann</strong></div>
-    <div style="font-size: 1.5em;">Technical University Berlin, Learning and Intelligent Systems Lab</div>
+    <div style="font-size: 1.2em;"><strong>Cederic Aßmann</strong></div>
+    <div style="font-size: 1.0em;">Technical University Berlin, Learning and Intelligent Systems Lab</div>
     <div>
         <a href="https://www.linkedin.com/in/cederic-aßmann-41904322b" target="_blank">
             <img src="{{ '/assets/icons/li.png' | relative_url }}" width="200" alt="LinkedIn">
