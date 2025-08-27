@@ -72,19 +72,19 @@ We evaluate <span style="color:#00CBFF;">FR3-D</span> qualitatively on the basel
 
 <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-bottom:20px;">
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/everyday/260_acc0.857/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/everyday/260_acc0.857/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/everyday/839_acc1.0/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/everyday/839_acc1.0/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/everyday/2253_acc1.0/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/everyday/2253_acc1.0/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/everyday/6074_acc1.0/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/everyday/6074_acc1.0/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -96,19 +96,19 @@ We evaluate <span style="color:#00CBFF;">FR3-D</span> qualitatively on the basel
 
 <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-bottom:20px;">
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/artifact/102_acc1.0/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/artifact/102_acc1.0/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/artifact/456_acc0.875/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/artifact/456_acc0.875/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/artifact/571_acc0.933/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/artifact/571_acc0.933/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/artifact/3035_acc0.95/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/artifact/3035_acc0.95/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -125,19 +125,19 @@ We evaluate <span style="color:#00CBFF;">FR3-D</span> qualitatively on the basel
 
 <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-bottom:20px;">
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/synthetic/952_acc1.0/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/synthetic/952_acc1.0/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/synthetic/1003_acc0.8/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/synthetic/1003_acc0.8/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/synthetic/1378_acc0.947/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/synthetic/1378_acc0.947/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/synthetic/1408_acc1.0/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/synthetic/1408_acc1.0/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -153,19 +153,19 @@ We evaluate <span style="color:#00CBFF;">FR3-D</span> qualitatively on the basel
 
 <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-bottom:20px;">
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/real/1_acc0.222/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/real/1_acc0.222/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/real/4_acc0.2/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/real/4_acc0.2/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/real/7_acc0.375/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/real/7_acc0.375/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   <video autoplay loop muted playsinline style="width:22%;" onloadedmetadata="this.playbackRate=1.5;">
-    <source src="/assets/video/real/9_acc0.111/video.mp4" type="video/mp4">
+    <source src="{{ '/assets/video/real/9_acc0.111/video.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
