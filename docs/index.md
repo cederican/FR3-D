@@ -3,8 +3,8 @@ layout: default
 title: "FR3-D: A Regressor-Guided SE(3)-Equivariant conditioned Diffusion Model for 3D Fracture Reassembly"
 ---
 <div style="text-align:center;">
-    <div style="font-size: 1.2em;"><strong>Cederic Aßmann</strong></div>
-    <div style="font-size: 1.0em;">Technical University Berlin, Learning and Intelligent Systems Lab</div>
+    <div style="font-size: 1.3em;"><strong>Cederic Aßmann</strong></div>
+    <div style="font-size: 1.1em;">Technical University Berlin, Learning and Intelligent Systems Lab</div>
     <div>
         <a href="https://www.linkedin.com/in/cederic-aßmann-41904322b" target="_blank">
             <img src="{{ '/assets/icons/li.png' | relative_url }}" width="200" alt="LinkedIn">
@@ -183,6 +183,6 @@ We evaluate <span style="color:#00CBFF;">FR3-D</span> qualitatively on the basel
 
 <div style="text-align:justify; max-width:900px; margin:auto;">
 
-The <span style="color:#00CBFF;">FR3-D</span> framework is deeply inspired by PuzzleFusion++ and leverages ideas from Jigsaw and GARF. We benefited from their open-source code. Please consider reading these papers if interested in relevant topics.
+The <span style="color:#00CBFF;">FR3-D</span> framework is deeply inspired by PuzzleFusion++ and leverages ideas from Jigsaw and GARF. We benefited from their open-source code. Please consider reading these papers if interested in relevant topics. We gratefully acknowledge the Charité Universitätsmedizin for access to curated healthy and fractured CT Tibia Bones.
 </div>
 
