@@ -10,6 +10,8 @@ chamferdist/
 study/
 scripts/
 
+.DS_Store
+
 __pycache__
 *.ipynb
 
