@@ -1,20 +1,7 @@
 title: My Awesome Site
-description: >-
- <div style="text-align:center;">
-    <div><strong>Cederic Aßmann</strong></div>
-    <div>Technical University Berlin, Learning and Intelligent Systems Lab</div>
-    <div>
-      <a href="https://www.linkedin.com/in/cederic-aßmann-41904322b" target="_blank">
-        <img src="/assets/icons/li.png" width="200" alt="LinkedIn">
-      </a>
-      &nbsp;&nbsp;
-      <a href="https://github.com/cederican/FR3-D" target="_blank">
-        <img src="/assets/icons/gi.png" width="200" alt="GitHub">
-      </a>
-    </div>
-  </div>
+description: "Cederic Aßmann - Technical University Berlin, Learning and Intelligent Systems Lab"
 baseurl: "" # leave empty unless serving from a subfolder
-url: "http://127.0.0.1:4000" # local preview URL
+url: "https://cederican.github.io/FR3-D"
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
