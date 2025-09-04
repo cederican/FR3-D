@@ -8,7 +8,7 @@ Technical University Berlin
 
 Berlin Learning and Intelligent Systems Lab
 
-[Project page](https://cederican.github.io/FR3-D/), [Thesis](https://github.com/cederican/Master-Thesis) 
+[Project page](https://cederican.github.io/FR3-D/), [Thesis](https://github.com/cederican/FR3-D/releases/download/Thesis/Abschlussarbeit_500161.pdf) 
 </div>
 
 
