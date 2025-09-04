@@ -14,7 +14,7 @@ title: "FR3-D: A Regressor-Guided SE(3)-Equivariant conditioned Diffusion Model 
             <img src="{{ '/assets/icons/gi.png' | relative_url }}" width="150" alt="GitHub">
         </a>
         &nbsp;&nbsp;
-        <a href="{{ '/thesis/placeholder.pdf' | relative_url }}" target="_blank">
+        <a href="https://github.com/cederican/FR3-D/releases/download/Thesis/Abschlussarbeit_500161.pdf" target="_blank">
           <img src="{{ '/assets/icons/pdf.png' | relative_url }}" width="150" alt="PDF Thesis">
         </a>
     </div>
